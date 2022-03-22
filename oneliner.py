@@ -16,5 +16,7 @@ url = f'(https://img.shields.io/badge/{underscores}-{a}?style=for-the-badge&logo
 front = ("| " + badge + " | ")
 mdrender = ("!" + "[" + badge + "]")
 codesnippet = ("`" + url + "`")
+md = ("`" + mdrender + url + "`")
 #Deliver the result to terminal
-print(front + mdrender + url + "|" + codesnippet)
+#print(front + mdrender + url + "|" + codesnippet)
+print(front + mdrender + url + "|" + md + "|" )
